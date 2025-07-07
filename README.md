@@ -8,8 +8,8 @@ This is the official pytorch implementation of "**Efficient Implicit Reconstruct
 ## Requirements
 Our experimental environment is
 ```
-CUDA 12.6
-pytorch 1.11.0
+CUDA 11.7
+pytorch 2.0.1
 ```
 The requirements can be installed by
 ```
