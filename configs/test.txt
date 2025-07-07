@@ -1,0 +1,31 @@
+expname = Z
+basedir = ./logs
+datadir = ./data/Z
+dataset_type = blender
+
+no_batching = False
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+N_samples = 64
+N_importance = 128
+
+N_rand = 1024
+
+
+precrop_iters = 500
+precrop_frac = 0.5
+
+half_res = False
+
+i_weights = 30000
+i_testset = 25
+lrate = 1e-3
+i_video = 2000
+
+netdepth = 4
+netdepth_fine = 6
+
+multires = 4
